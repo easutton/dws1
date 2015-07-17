@@ -8,19 +8,20 @@ body {
 	background-color: rgba(207,192,162,0.25);
 	text-align: center;
 	line-height: 125%;
+	width: auto;
+	height: auto;
 	}
 		
 header {
 	text-align: center;
 	border: 0;
-	padding: 10px auto;
-	margin: 10px auto;
 	width:100%;
 	}
 	
 .nav {
-	border: 1px solid #ccc;
+	border: 1px dotted #ccc;
 	border-width: 1px 0;
+	border-radius: 25px;
 	list-style: none;
 	margin: 0;
 	padding: 0;
@@ -29,7 +30,6 @@ header {
 	
 .nav li {
 	display: inline;
-	list-style-position: inside;
 	}
 	
 .nav a {
@@ -57,6 +57,22 @@ em {
 	color:#BC2B8D;
 	} 
 	
+ul {
+	list-style-position: outside;
+	padding: 20px;
+	border: 
+	}
+	
+li 	{
+	list-style-type: square;
+	}
+	
+ul2 {
+	width: 100%;
+	padding: 20px;
+	margin: 25px;
+	}
+	
 #content {
 	text-align: center;
 	line-height: 150%;
@@ -71,7 +87,7 @@ text-decoration: none;
 
 /* visited link */
 a:visited {
-color: #BC2B8D;
+color: #69232B;
 text-decoration: none;
 }
 
