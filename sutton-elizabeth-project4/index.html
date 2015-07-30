@@ -200,9 +200,9 @@
 		<!-- begin form -->
 		<form action="http://example.com/join.php">
 		 
-		<h3 <strong>Vote for Your Favorite Player!</strong></h3> 
+		<h3>Vote for Your Favorite Player!</h3> 
 
-			<fieldset>
+			<fieldset id="input1">
 				<legend>Your Favorite Player</legend>
 				
 				<label for="player" >Player:</label>
@@ -216,11 +216,11 @@
 		 			required="required" /><br>
 		 	
 				League:
-				<input id="american" type="radio"
+				<input id="divisiona" type="radio"
 					name="american" value="a"  />
 				<label for="american">American</label>
 			
-				<input id="national" type="radio"
+				<input id="divisionn" type="radio"
 					name="national" value="a"  />
 				<label for="national">National</label>				
 		
@@ -236,7 +236,7 @@
 		 			required="required" /><br>	
 		 	</fieldset>
 			
-			<fieldset>
+			<fieldset id="input2">
 				<legend>About You</legend>
 			
 				<label for="email">Your E-Mail Address:</label>
@@ -253,20 +253,16 @@
 					value="Home Number"  required="required" /> Home Number
 				
 				<input type="radio" name="phone"
-					value="Mobile Number" required="required" /> Mobile Number
+					value="Mobile Number" required="required" /> Mobile Number<br>
 		 	
-		 		<p>What is the best method to reach you?<br>
-
+		 		<label for="method">Best method to reach you:</label>
 				<!--begin dropdown list-->
 			 	<select name="method">
 		 	
-			 	<option value="email">E-mail</option>
+			 	<option value="email">E-mail</option> 
 		 		
-			 	<option value="phone">Phone</option><br>
-			 	
-			 </fieldset>
+			 	<option value="phone">Phone</option>
 		 	
-		 	<!--begin submit-->
 		 	<input type="submit" value="Submit"  />	
 		 	
 		 </form><!-- end form -->	
