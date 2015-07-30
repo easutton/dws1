@@ -25,7 +25,7 @@ header {
 	}
 	
 /* unvisited link */
-a:link {
+a:link { 
 	color: #fff;
 	text-decoration: none;
 	}
@@ -165,6 +165,8 @@ li 	{
 	display: inline-block;
 	}
 	
+/*----------Body:Table----------*/
+
 table, th, td {
    	margin: 15px 0 0 0;
    	padding: 5px;
@@ -198,6 +200,34 @@ IMG.main {
 	float: left;
 	margin: 10px;
 	}
+	
+	
+/*----------Body:Form----------*/
+	
+form {
+	width: 25%;
+	font-size: 0.85em;
+	color: #0099cc;
+	text-align: center;
+	border: 1px solid rgba(207,192,162,0.75);
+	float: right;
+	padding: 15px;
+	margin: 2px;
+	background: rgba(0,153,204,0.1);
+	}
+
+INPUT:hover {
+	background-color: rgba(207,192,162,0.25);
+	}
+	
+INPUT:focus {
+	background-color: rgba(207,192,162,0.5);
+	}
+	
+INPUT:focus:hover {
+	background-color: rgba(207,192,162,0.75);
+	}	
+	
 			
 /*----------Footer----------*/
 

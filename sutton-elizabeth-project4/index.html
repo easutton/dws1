@@ -195,6 +195,82 @@
 				<a href="https://en.wikipedia.org/wiki/Pittsburgh_Pirates"><span>Pittsburgh Pirates</span></a>
 			</figcaption>
 		</figure>
+		
+		
+		<!-- begin form -->
+		<form action="http://example.com/join.php">
+		 
+		<h3 <strong>Vote for Your Favorite Player!</strong></h3> 
+
+			<fieldset>
+				<legend>Your Favorite Player</legend>
+				
+				<label for="player" >Player:</label>
+				<input type="text" name="Player"
+		 			id="player" placeholder="Player's name"
+		 			required="required" /><br>
+		 	
+		 		<label for="team">Team:</label>
+				<input type="text" name="Team"
+		 			maxlength="30" placeholder="Player's team"
+		 			required="required" /><br>
+		 	
+				League:
+				<input id="american" type="radio"
+					name="american" value="a"  />
+				<label for="american">American</label>
+			
+				<input id="national" type="radio"
+					name="national" value="a"  />
+				<label for="national">National</label>				
+		
+				<p>Briefly, tell us why you chose this player:</p>
+		
+				<textarea name="comments">
+					Enter your comments... 
+				</textarea><br>
+						
+				<label for="name">Your Name:</label>
+					<input type="text" name="Your Name"
+		 			maxlength="30" placeholder="First/last name"
+		 			required="required" /><br>	
+		 	</fieldset>
+			
+			<fieldset>
+				<legend>About You</legend>
+			
+				<label for="email">Your E-Mail Address:</label>
+		 		<input type="email" name="email"
+		 			maxlength="30" placeholder="E-mail address"
+		 			required="required" /><br>	
+		 	
+				<label for="phone">Your Phone Number:</label>
+		 		<input type="text" name="Your Phone Number"
+		 			maxlength="30" placeholder="Phone number"
+		 			required="required" /><br>	
+		 	
+		 		<input type="radio" name="phone"
+					value="Home Number"  required="required" /> Home Number
+				
+				<input type="radio" name="phone"
+					value="Mobile Number" required="required" /> Mobile Number
+		 	
+		 		<p>What is the best method to reach you?<br>
+
+				<!--begin dropdown list-->
+			 	<select name="method">
+		 	
+			 	<option value="email">E-mail</option>
+		 		
+			 	<option value="phone">Phone</option><br>
+			 	
+			 </fieldset>
+		 	
+		 	<!--begin submit-->
+		 	<input type="submit" value="Submit"  />	
+		 	
+		 </form><!-- end form -->	
+		 			 
 	</aside><!-- end sidebar -->
 		
 		
